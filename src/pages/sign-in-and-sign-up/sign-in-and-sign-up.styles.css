@@ -9,6 +9,6 @@
   .sign-in-and-sign-up {
     width: 100%;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
   }
 }

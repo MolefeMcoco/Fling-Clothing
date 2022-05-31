@@ -25,3 +25,9 @@
       grid-gap: 15px ;
     }
   }
+
+  @media screen and (max-width : 425px) {
+    .collection-preview   .preview {
+      grid-template-columns: 1fr;
+    }
+  }

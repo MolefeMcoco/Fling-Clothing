@@ -7,3 +7,10 @@
     margin: 10px 0;
   }
 
+  @media screen and (max-width: 800px){
+    .sign-up{
+      margin-bottom: 50px;
+      width: 100%;
+      padding: 30px;
+    }
+  }

@@ -43,3 +43,17 @@
   color: white;
     border: none;
 }
+
+@media screen and (max-width: 800px){
+  .custom-button{
+    margin:10px 10px 10px 0px;
+    min-width: 130px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .custom-button{
+    min-width: 100px;
+    padding: 0px 5px 0 5px;
+  }
+}

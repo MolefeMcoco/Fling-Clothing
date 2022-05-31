@@ -15,5 +15,7 @@
 @media screen and (max-width: 800px){
   .sign-in{
     margin-bottom: 50px;
+    width: 100%;
+    padding: 30px;
   }
 }
