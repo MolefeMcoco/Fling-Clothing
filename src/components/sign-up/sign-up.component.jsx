@@ -34,7 +34,7 @@ class SignUp extends React.Component {
 			const { user } = createUserWithEmailAndPassword(auth, email, password)
 				.then((userCredential) => {
 					// Signed in
-					const user = userCredential.user;
+
 					this.setState({ email: '', password: '' });
 				})
 				.catch((error) => {
