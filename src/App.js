@@ -10,6 +10,9 @@ import ShopPage from './pages/shop/shop.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import CheckoutPage from './pages/checkout/checkout.components';
 import Header from './components/header/header.component';
+import HeaderBanner from './components/header-banner/header-banner.component';
+import HeroImage from './components/heroImage/heroImage.component';
+import TopSeller from './components/top-seller-collection/top-seller-collection.component';
 import { auth } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions';
 
@@ -37,6 +40,9 @@ class App extends React.Component {
 			<div>
 				<GlobalStyle />
 				<Header />
+				<HeaderBanner />
+				<HeroImage />
+				<TopSeller />
 				<Switch>
 					<Route exact path="/" component={HomePage} />
 					<Route path="/shop" component={ShopPage} />
