@@ -32,11 +32,10 @@
 }
 
 @media screen and (max-width: 425px) {
+	.item-container {
+		margin: 0 auto;
+	}
 	.header-banner {
 		padding: 0px 5px;
-	}
-
-	.banner-icon {
-		margin-right: 3px;
 	}
 }

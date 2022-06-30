@@ -1,8 +1,20 @@
 .directory-menu {
-	width: 100%;
+	width: 100% !important;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 100px auto;
+}
+
+@media screen and (max-width: 768px) {
+	.directory-menu {
+		margin: 50px auto;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.directory-menu {
+		margin: 30px auto;
+	}
 }

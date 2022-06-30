@@ -12,9 +12,9 @@ const HomePage = () => (
 	<div className="homepage">
 		<HeaderBanner />
 		<HeroImage />
-		<TopSeller />
-		<Banner />
 		<Directory />
+		<Banner />
+		<TopSeller />
 		<NewLetter />
 	</div>
 );

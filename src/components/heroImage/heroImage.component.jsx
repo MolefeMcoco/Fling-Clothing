@@ -1,5 +1,6 @@
 import React from 'react';
 import CustomButton from '../custom-button/custom-button.component';
+import { Link } from 'react-router-dom';
 import heroPicture from '../../assets/headerImage.png';
 import './heroImage.styles.css';
 
@@ -9,7 +10,9 @@ const HeroImage = () => {
 			<div className="left">
 				<h1>A Simple Minimalist style</h1>
 				<div>
-					<CustomButton>Shop Now</CustomButton>
+					<Link to="/shop">
+						<CustomButton>Shop Now</CustomButton>
+					</Link>
 				</div>
 			</div>
 			<div className="right">

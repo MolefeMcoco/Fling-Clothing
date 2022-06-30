@@ -24,6 +24,9 @@
 }
 
 @media screen and (max-width: 768px) {
+	.hero-container {
+		margin-bottom: 50px;
+	}
 	.right img {
 		width: 80%;
 	}
@@ -43,8 +46,19 @@
 }
 
 @media screen and (max-width: 425px) {
+	.hero-container {
+		margin-bottom: 25px;
+	}
+
 	.hero-container .left {
 		font-size: 12px;
 		flex: 0.8;
+	}
+
+	.hero-container .right {
+		flex: 1.2;
+	}
+	.right img {
+		width: 100%;
 	}
 }
