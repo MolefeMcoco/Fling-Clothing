@@ -14,7 +14,8 @@ const SHOP_DATA = [
 				id: 2,
 				name: 'Blue Beanie',
 				imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-				price: 18
+				price: 18,
+				sale: true
 			},
 			{
 				id: 3,
@@ -50,7 +51,8 @@ const SHOP_DATA = [
 				id: 8,
 				name: 'Wolf Cap',
 				imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-				price: 14
+				price: 14,
+				sale: true
 			},
 			{
 				id: 9,
@@ -82,7 +84,7 @@ const SHOP_DATA = [
 				name: 'Black Converse',
 				imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
 				price: 110,
-				topSeller: true
+				sale: true
 			},
 			{
 				id: 13,
@@ -94,7 +96,8 @@ const SHOP_DATA = [
 				id: 14,
 				name: 'Nike Red High Tops',
 				imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-				price: 160
+				price: 160,
+				sale: true
 			},
 			{
 				id: 15,
@@ -131,7 +134,8 @@ const SHOP_DATA = [
 				id: 19,
 				name: 'Blue Jean Jacket',
 				imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-				price: 90
+				price: 90,
+				sale: true
 			},
 			{
 				id: 20,
@@ -149,7 +153,8 @@ const SHOP_DATA = [
 				id: 22,
 				name: 'Tan Trench',
 				imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-				price: 185
+				price: 185,
+				sale: true
 			}
 		]
 	},
@@ -242,37 +247,6 @@ const SHOP_DATA = [
 				name: 'Burgundy T-shirt',
 				imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
 				price: 25
-			}
-		]
-	},
-	{
-		id: 6,
-		title: 'Top Sellers',
-		routeName: 'mens',
-		items: [
-			{
-				id: 36,
-				name: 'Blue Beanie',
-				imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-				price: 18
-			},
-			{
-				id: 37,
-				name: 'Red Dots Dress',
-				imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-				price: 80
-			},
-			{
-				id: 38,
-				name: 'Blue Jean Jacket',
-				imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-				price: 90
-			},
-			{
-				id: 39,
-				name: 'Black Converse',
-				imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-				price: 110
 			}
 		]
 	}

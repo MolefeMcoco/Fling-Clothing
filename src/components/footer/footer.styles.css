@@ -1,0 +1,17 @@
+.footer {
+	background-color: black;
+	color: #fff;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px;
+}
+
+.footer a,
+.footer span {
+	color: #fff;
+}
