@@ -50,6 +50,18 @@ button {
 
 @media screen and (max-width: 425px) {
 	.checkout-page {
-		width: 100%;
+		width: 90%;
+	}
+
+	.checkout-page .checkout-header {
+		width: 90%;
+	}
+
+	.checkout-item .quantity {
+		padding-left: 0px;
+	}
+
+	.checkout-item .remove-button {
+		padding-left: 0px;
 	}
 }
